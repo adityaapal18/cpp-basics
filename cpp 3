@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+   //one more way of looking into string declaration
+   //getline 
+   string str;
+   getline(cin,str);
+   cout<< str;
+   return 0;
+
+//looking into one more data type char 
+char c;
+c='h';
+cout<<c;
+}
