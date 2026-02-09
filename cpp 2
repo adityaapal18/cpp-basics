@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    //int,long,long long, float double 
+    int a=10;
+    long b=18;
+    long long c=100000;
+    float d=13.2;
+    double e=22.13;
+    // string 
+    string s;
+    // using getline for string because it prints characters before spaces.
+    //first using simple implementation first
+    string str1;
+    string str2;
+    cin>> str1>>str2;
+    cout<<str1<<" "<<str2;
+}
