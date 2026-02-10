@@ -5,4 +5,8 @@ int main()
     int arr[5];
     cin>>arr[0]>>arr[1]>>arr[2]>>arr[3]>>arr[4];
     cout<<arr[3];
+//for 2D array
+//example int arr[3][5] here this means 3 means number of rows and 5 means number of columns indexing starts from zero in an array 
+//eg-> you assigned arr[3][1]=78;and cout<<arr[3][1] it will print that value that is,78 while when we print random 
+//like ->arr[3][2]or any other index in an array it will print a randomized garbage value like here for it could be anything eg-> 3434323 anything .
 }
