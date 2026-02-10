@@ -1,0 +1,9 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+   string s="Aditya";
+   int len=s.size();
+   s[len-1]='3';
+   cout<<s[len-1];
+}
