@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+  // while loop
+    int i=5;
+    while (i>0){
+        cout<<"Aditya"<<endl;
+        i--;
+    }
+    cout<<i<<endl;
+// do while loop
+  int j=2;
+do
+{
+    cout<<"Hello"<<endl;
+    j=j+1;
+}
+while(j<=2);
+cout<<j<<endl;
+}
