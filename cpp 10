@@ -1,0 +1,19 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+    //increment
+    int i;
+    for(i=1;i<=5;i++)
+    {
+        cout<<"Aditya"<<endl;
+    }
+    cout<<i<<endl;
+    //decrement
+int j;
+for(j=5;j>0;j--)
+{
+    cout<<"Aditya"<<endl;
+}
+cout<<j<<endl;
+}
