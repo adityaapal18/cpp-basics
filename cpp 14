@@ -1,0 +1,30 @@
+ #include<bits/stdc++.h>
+using namespace std;
+//pass by value function
+void dosomething(int num)
+{
+    cout<<num<<endl;
+    num+=5;
+    cout<<num<<endl;
+    num+=5;
+    cout<<num<<endl;
+}
+//pass by reference function just insert & operator
+void dosomething1(int &n)
+{
+    cout<<n<<endl;
+    n+=5;
+    cout<<n<<endl;
+    n+=5;
+    cout<<n<<endl;
+}
+int main()
+{
+    int num=10;
+    int n=10;
+    dosomething(num);
+    cout<<num<<endl;
+    cout<<endl;
+    dosomething1(n);
+    cout<<n<<endl;
+}
